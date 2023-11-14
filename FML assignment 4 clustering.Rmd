@@ -11,10 +11,34 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+###summary 
+#Step 1: Data Preparation #Scaling: Standardize the numerical variables to ensure that they are on the same scale, as clustering algorithms are sensitive to the scales of variables. 
+
+#Step 2: ChoosingClustering Algorithm #Algorithm Selection: Select an appropriate clustering algorithm. Common choices include k-means, hierarchical clustering, or DBSCAN. The choice may depend on the distribution and shape of the data. 
+
+#Step 3: Determining Number of Clusters #Number of Clusters: Use methods like the elbow method or silhouette analysis to determine the optimal number of clusters. 
+
+#Step 4: Running the Cluster Analysis #Running the Algorithm: Apply the chosen clustering algorithm with the determined number of clusters to the standardized numerical variables. 
+
+#Step 5: Interpretation #Cluster Interpretation: Examine the clusters with respect to the numerical variables to identify patterns and characteristics within each cluster. 
+
+#Step 6: Naming Clusters #Naming Clusters: Use domain knowledge or distinctive features of the clusters to give them appropriate names.
+
+#Step 7: Analysis of Non-Clustered Variables #Analysis of Remaining Variables: Explore variables (10 to 12) that were not used in forming the clusters to see if there are patterns or trends that emerge across the clusters.
+
+#Descriptive Summary: 
+#1. Data Preparation: Standardize numerical variables.
+#2. Clustering Algorithm: #Choose an appropriate algorithm (e.g., k-means). 
+#3. Number of Clusters: #Determine the optimal number of clusters. 
+#4. Cluster Analysis:
+#Run the clustering algorithm on the standardized numerical variables. 
+#5. Interpretation: #Examine patterns within each cluster based on variables 1 to 9.
+#6. Naming Clusters: #Use distinctive features to name each cluster.
+#7. Analysis of Non-Clustered Variables: #Explore variables 10 to 12 for additional insights. #This process will provide a structured analysis of the pharmaceutical industry based on financial metrics, revealing patterns and insights that can be valuable for an equities analyst.
 #summary 
 
 
-luster Interpretation:
+Cluster Interpretation:
 Cluster Characteristics:
 Cluster 1 ("Hold" Cluster): Firms like AGN, PHA, BAY have the highest PE_Ratio, but lower ROE.
 Cluster 2 ("Moderate Buy/Hold" Cluster): JNJ, MRK, GSK, PFE have the highest Market_Cap and good Leverage.
